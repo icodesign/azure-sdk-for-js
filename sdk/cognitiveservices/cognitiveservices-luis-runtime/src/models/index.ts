@@ -107,7 +107,7 @@ export interface PredictionRequestOptions {
   /**
    * The reference DateTime used for predicting datetime entities.
    */
-  datetimeReference?: Date;
+  datetimeReference?: string;
   /**
    * Whether to make the external entities resolution override the predictions if an overlap
    * occurs.
